@@ -6,7 +6,7 @@ function HomeComp({ children }) {
       <header>
         <h1>Joshua's Website</h1>
         <div class="square-container"> 
-        <img src="/Profile.jpg" alt="Joshua's Profile Picture" class="square-image" />
+        <img src="/Profile.jpg" alt="Joshua's Profile " className="square-image" />
         </div>
       </header>
       <h3>HERE's JOSHY!</h3>

@@ -5,6 +5,7 @@ import './App.css';
 import Layout1 from './Layout/Layout1';
 import Layout2 from './Layout/Layout2';
 import Home from './Layout/Home';
+import Layout3 from './Layout/Layout3';
 import Navigation from './Component/Nav';
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
             <Route path="/layout2" element={<Layout2 />}>
             </Route>
             <Route path="/" element={<Home />}>
+              </Route>
+              <Route path="/layout3" element={<Layout3 />}>
               </Route>
           </Routes>
         </div>

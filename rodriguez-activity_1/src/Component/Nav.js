@@ -13,8 +13,9 @@ function Navigation() {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link as={Link} to="/layout1">Page1</Nav.Link>
-        <Nav.Link as={Link} to="/layout2">Page2</Nav.Link>
+        <Nav.Link as={Link} to="/layout1">Games</Nav.Link>
+        <Nav.Link as={Link} to="/layout2">Actors</Nav.Link>
+        <Nav.Link as={Link} to="/layout3">Register</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
