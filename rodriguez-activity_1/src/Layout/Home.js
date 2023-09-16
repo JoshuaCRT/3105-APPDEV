@@ -2,7 +2,10 @@ import React from 'react';
 import HomeComp from '../Component/HomeComponent';
 
 
+
+
 function Home({ children }) {
+ 
   return (
     <div>
       <HomeComp/>

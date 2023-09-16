@@ -7,9 +7,13 @@ import Layout2 from './Layout/Layout2';
 import Home from './Layout/Home';
 import Layout3 from './Layout/Layout3';
 import Navigation from './Component/Nav';
+import { SkeletonTheme } from 'react-loading-skeleton';
+
+
 
 function App() {
   return (
+    <SkeletonTheme baseColor='#313131' highlightColor='525252'>
     <Router>
       <div className="App">
         <header>
@@ -29,6 +33,7 @@ function App() {
         </div>
       </div>
     </Router>
+    </SkeletonTheme>
   );
 }
 
